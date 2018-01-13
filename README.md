@@ -10,3 +10,4 @@ npm install --save react-redux
 npm install --save react-router
 npm install --save react-router-dom
 npm install --save react-flexbox-grid
+npm install whatwg-fetch --save
