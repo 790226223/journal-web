@@ -11,3 +11,4 @@ npm install --save react-router
 npm install --save react-router-dom
 npm install --save react-flexbox-grid
 npm install whatwg-fetch --save
+npm install material-design-icons

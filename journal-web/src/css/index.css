@@ -1,0 +1,30 @@
+.index-body {
+  width: 100%;
+}
+
+.navigate-bottom {
+  position:absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.index-page {
+  margin-left: -2%;
+  margin-top: -2%;
+}
+
+.user-info-main-body {
+  margin-top: 50%;
+}
+
+.type-info-body {
+  width: 103%;
+  height: 90%;
+}
+
+.type-list {
+  height: 77%;
+  width: 100%;
+  position:absolute;
+  overflow-y:scroll;
+}

@@ -7,6 +7,7 @@ import Snackbar from 'material-ui/Snackbar';
 import { connect } from 'react-redux';
 import 'isomorphic-fetch';
 import loginOperate from '../action/loginAction';
+import Divider from 'material-ui/Divider';
 
 const styles = {
   snakeBody : {
@@ -39,6 +40,7 @@ class LoginPage extends React.Component {
         user: this.state.username,
         pwd: this.state.pwd,
       }),
+      credentials: 'include',
     }).then((response) => {
       response.json().then((data) => {
             console.log(data);
@@ -87,7 +89,8 @@ class LoginPage extends React.Component {
                       <div className="title">
                         <a>JOURNAL</a>
                       </div>
-                      <hr/>
+                      <br/>
+                      <Divider />
                       <br/>
                       <TextField onChange={(e, newValue) => this.handleChangeUsername(e, newValue)} fullWidth={true} hintText="username" />
                       <br/>
